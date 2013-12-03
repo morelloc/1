@@ -64,7 +64,7 @@ namespace PizzaGuy
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Spritesheet = Content.Load<Texture2D>(@"SpriteSheet");
-            map = Content.Load<Map>("Map1");
+            map = Content.Load<Map>("PizzaGuyMap");
             menuMusic = Content.Load<Song>("introMusic");
             map.LoadTileSheets(xnaDisplayDevice);
             MediaPlayer.Play(menuMusic);
